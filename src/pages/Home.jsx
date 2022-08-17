@@ -14,7 +14,7 @@ const Home = () => {
                 <Container>
                     <TodoForm />
                     <TodoList />
-                    <ToastContainer />
+                    <ToastContainer pauseOnFocusLoss={false} />
                 </Container>
             ) : (
                 <Welcome />
